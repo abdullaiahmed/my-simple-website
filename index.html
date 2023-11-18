@@ -3,47 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Informative Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Your Name - Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>Interactive Informative Website</h1>
+        <h1>Your Name</h1>
+        <p>Curriculum Vitae</p>
     </header>
 
-    <main>
-        <section id="welcome">
-            <h2>Welcome</h2>
-            <p>This is an interactive and informative website created with HTML, CSS, and JavaScript.</p>
-            <button id="show-facts">Show Facts</button>
-        </section>
+    <section>
+        <h2>Contact Information</h2>
+        <ul>
+            <li>Email: your.email@example.com</li>
+            <li>Phone: (123) 456-7890</li>
+            <li>LinkedIn: linkedin.com/in/yourname</li>
+            <li>GitHub: github.com/yourusername</li>
+        </ul>
 
-        <section id="facts">
-            <h2>Did You Know?</h2>
-            <p id="fact-placeholder">Click the button to display a random fact.</p>
-        </section>
+        <h2>Education</h2>
+        <p><strong>Degree in Something</strong></p>
+        <p>School/University Name, Graduation Year</p>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form id="contact-form">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
+        <h2>Work Experience</h2>
+        <p><strong>Job Title</strong></p>
+        <p>Company Name, Start Date - End Date</p>
+        <ul>
+            <li>Responsibility or achievement</li>
+            <li>Responsibility or achievement</li>
+        </ul>
 
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required>
+        <h2>Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+        </ul>
 
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+        <h2>Languages</h2>
+        <ul>
+            <li>Language 1</li>
+            <li>Language 2</li>
+        </ul>
+    </section>
 
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Interactive Informative Website</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
